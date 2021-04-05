@@ -18,7 +18,7 @@ public class Ex27 {
 		int sumEdades = 0;
 		int cont = 0;
 
-		for (int i = 1; i <= CANT_EDADES; i++) {
+		for (int i = 0; i < CANT_EDADES; i++) {
 			System.out.println("Ingrese una edad");
 			edad = input.nextInt();
 			input.nextLine();

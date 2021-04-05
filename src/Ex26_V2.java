@@ -9,8 +9,8 @@ public class Ex26_V2 {
 
 	private static Scanner input = new Scanner(System.in);
 
-	public static final int TRES = 3;
-	public static final int CINCO = 5;
+	public static final int MULT = 3;
+	public static final int MULT_EXC = 5;
 
 	public static void main(String[] args) {
 
@@ -23,8 +23,8 @@ public class Ex26_V2 {
 		input.nextLine();
 
 		for (int i = 1; i <= n; i++) {
-			if (i % CINCO != 0) {
-				System.out.println(i + " * " + TRES + " = " + (i * TRES));
+			if (i % MULT_EXC != 0) {
+				System.out.println(i + " * " + MULT + " = " + (i * MULT));
 			}
 		}
 

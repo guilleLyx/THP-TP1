@@ -22,7 +22,7 @@ public class Ex29 {
 			nota = input.nextInt();
 			input.nextLine();
 
-		} while (nota <= (NOTA_MIN -1) || nota >= (NOTA_MAX +1) );
+		} while (nota < NOTA_MIN || nota > NOTA_MAX  );
 		System.out.println("La nota, " + nota + ", a sido satisfactoriamente cargada");
 
 		input.close();
